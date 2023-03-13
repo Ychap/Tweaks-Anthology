@@ -1,2 +1,12 @@
 // this file is used to override strings in game.tra for EE games
 // it will NOT be re-encoded for EE games, so put it in the correct charset for your language
+
+@418002 = ~Der Vater von Nalia hat ihr diesen Ring zu ihrem 18. Geburtstag überreicht. Der Ring ist auf magischem Weg an sie gebunden und auch seine Kräfte können nur von ihr genutzt werden. Durch den Ring erhält sie einen Bonus von -2 auf alle Rettungswürfe und auf ihre Rüstungsklasse sowie +50 % Feuerwiderstand.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+RW-Bonus: -2
+Feuerwiderstand: +50 %
+
+Gewicht: 0~

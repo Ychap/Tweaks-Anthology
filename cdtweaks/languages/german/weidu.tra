@@ -76,6 +76,14 @@ veraendern~
 @120000 = ~Imoen TdB Dialogbehebung~
 @121000 = ~BG Schrittgeschwindigkeiten verwenden (BETA)~
 @122000 = ~Cromwell wertet Gegenstaende der Wachenden Festung auf~
+@134000 = ~Macht die Magierfestung für alle Klassen zugänglich~
+@134100 = ~Macht die Kämpferfestung für alle Klassen zugänglich~
+@134200 = ~Macht die Klerikerfestung für alle Klassen zugänglich~
+@134300 = ~Macht die Diebesfestung für alle Klassen zugänglich~
+@134400 = ~Macht die Bardenfestung für alle Klassen zugänglich~
+@134500 = ~Macht die Paladinfestung für alle Klassen zugänglich~
+@134600 = ~Macht die Druidenfestung für alle Klassen zugänglich~
+@134700 = ~Macht die Waldläuferfestung für alle Klassen zugänglich~
 @201000 = ~PnP Zauberfortschrittsfabellen~
 @202000 = ~Zweihaendige Bastardschwerter~
 @203000 = ~Zweihaendige Katanas~
@@ -179,7 +187,7 @@ Wesen (BETA)~
 @312001 = ~NSCs sind niemals ueber den Ruf veraergert~
 @312100 = ~NSCs koennen ueber den Ruf veraergert sein, aber gehen nie (Salk)~
 @312200 = ~NSCs verhalten sich immer neutral ueber den Ruf (Anomaly)~
-@312300 = ~Gruppen-NSCs bekaempfen~ 
+@312300 = ~NSCs bekaempfen sich nicht~
 @312400 = ~Verhindern Sie den Romance zwischen Aerie und Haer'Dalis am Anfang~
 @312500 = ~Neutrale Charaktere machen glueckliche Bemerkungen bei 
 durchschnittlichem Ruf~
@@ -190,11 +198,12 @@ durchschnittlichem Ruf~
 @315000 = ~Die schrecklichen Animationen von Spiegelumhang, Zauberfalle und Physischer Spiegel ausschalten~
 @316000 = ~Drizzts Beute behalten, Malchor Harpell entfernen~
 @317000 = ~Keine Drow-Spielfiguren fuer die Gruppe im Unterreich~
+@317500 = ~Romanzen deaktivieren~
+@317600 = ~Romanzen beschleunigen/verlangsamen~
+@317601 = ~Bitte den Prozentsatz eingeben, um den die Romanzen beschleunigt/verlangsamt werden sollen
+50 wuerde die Zeit zwischen den Gespraechen halbieren, waehrend 300 die Zeitspanne verdreifachen wuerde.
+Einen Prozentsatz zwischen 20 und 500 eingeben:~
 @317900 = ~Keine Rassen Voraussetzungen fuer Romanzen~
-@318000 = ~Romanzen Cheats~
-@318001 = ~Keine Geschlecht/Rassen Voraussetzungen fuer Romanzen~
-@318100 = ~Keine Geschlecht/Rassen Voraussetzungen fuer Romanzen, mehrfache Romanzen erlauben~
-@318200 = ~Keine Geschlecht/Rassen Voraussetzungen fuer Romanzen, mehrfache Romanzen erlauben, nichts zerstoert Romanzen~
 @318300 = ~Romanzen Cheats~
 @318301 = ~Rassenvoraussetzungen fuer Romanzen entfernen? (Waehle 1 oder 2)
   1) Entfernen
@@ -255,21 +264,33 @@ Aktiviere Laufgeschwindigkeit: a7_movement_speed_enable
 Laufgeschwindigkeit (Prozent): a7_movement_speed_value
 Aktiviere Zauberrate:          a7_casting_speed_enable
 ~
+
+@335000 = ~Erstelle automatisch in Intervalen Speicherstaende [argent77]~
+@335001 = ~Alle 15 Minuten (nur ein Speicherstand)~
+@335002 = ~Alle 30 Minuten (nur ein Speicherstand)~
+@335003 = ~Alle 60 Minuten (nur ein Speicherstand)~
+@335004 = ~Alle 120 Minuten (nur ein Speicherstand)~
+@335005 = ~Alle 15 Minuten (vier Speicherstaende)~
+@335006 = ~Alle 30 Minuten (vier Speicherstaende)~
+@335007 = ~Alle 60 Minuten (vier Speicherstaende)~
+@335008 = ~Alle 120 Minuten (vier Speicherstaende)~
+
 @337000 = ~Automatische "Kapitelspeicherstaende" in PsT:EE~
 @400000 = ~Reaktionswuerfe von anschlussfaehigen boesen NSCs anpassen~
 @401000 = ~Verbessertes Herbeirufen beim Geist des Schicksals~
 @402000 = ~TdB-Stil NSCs~
-@403000 = ~Gleichbleibende Eigenschaften: Edwin~
+@403000 = ~Gleichbleibende Attribute: Edwin~
 @403001 = ~BG Werte benutzen~
 @403100 = ~BG2 Werte benutzen~
-@404000 = ~Gleichbleibende Eigenschaften: Jaheira~
+@404000 = ~Gleichbleibende Attribute: Jaheira~
 @405000 = ~Aendere Jaheira zu Neutral Gut~
-@406000 = ~Gleichbleibende Eigenschaften: Minsk~
-@407000 = ~Gleichbleibende Eigenschaften: Viconia~
+@406000 = ~Gleichbleibende Attribute: Minsk~
+@407000 = ~Gleichbleibende Attribute: Viconia~
 @408000 = ~Khalid zum Kaempfer/Magier machen (Domi)~
 @409000 = ~Montaron zum Meuchelmoerder machen (Andyr)~
 @410000 = ~Aendere Korgan zu Neutral Boese~
 @411000 = ~Kagain ein zulaessiges Konstitutionsergebnis von 19 geben~
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -284,33 +305,3 @@ Aktiviere Zauberrate:          a7_casting_speed_enable
 @503000 = ~Verschiebt Boo in Misks Gepäck~
 @504000 = ~Yeslick erlauben, Äxte zu benutzen~
 @505000 = ~Sicherstellen, dass Shar-Teel nicht bei der ursprünglichen Herausforderung stirbt~
-@506000 = ~Animation vom Spiegelumhang entfernen (belasst ihn für andere Zauber und Wirkungen, die dieselbe Graphik verwenden)~
-@507001 = ~Macht den Anfangs-Kerker ein bisschen schwerer~
-@507002 = ~Macht die Bardenfestung für alle Klassen zugänglich~
-@507003 = ~Macht die Klerikerfestung für alle Klassen zugänglich~
-@507004 = ~Macht die Druidenfestung für alle Klassen zugänglich~
-@507005 = ~Macht die Kämpferfestung für alle Klassen zugänglich~
-@507006 = ~Macht die Paladinfestung für alle Klassen zugänglich~
-@507007 = ~Macht die Waldläuferfestung für alle Klassen zugänglich~
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////                                                  \\\\\
-///// Ex-SCS components                                \\\\\
-///// Automatically copied over from SCS TRA files     \\\\\
-/////                                                  \\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-@500000 = ~Stapelbare Ankheg-Panzer, Winterwolf-Pelze und Drachenköpfe~
-@501000 = ~NPC-Paaren erlauben, sich zu trennen~
-@502000 = ~Gruppenmitglieder werden weniger wahrscheinlich unabänderlich sterben~
-@503000 = ~Verschiebt Boo in Misks Gepäck~
-@504000 = ~Yeslick erlauben, Äxte zu benutzen~
-@505000 = ~Sicherstellen, dass Shar-Teel nicht bei der ursprünglichen Herausforderung stirbt~
-@506000 = ~Animation vom Spiegelumhang entfernen (belasst ihn für andere Zauber und Wirkungen, die dieselbe Graphik verwenden)~
-@507001 = ~Macht die Bardenfestung für alle Klassen zugänglich~
-@507002 = ~Macht die Klerikerfestung für alle Klassen zugänglich~
-@507003 = ~Macht die Druidenfestung für alle Klassen zugänglich~
-@507004 = ~Macht die Kämpferfestung für alle Klassen zugänglich~
-@507005 = ~Macht die Paladinfestung für alle Klassen zugänglich~
-@507007 = ~Macht die Waldläuferfestung für alle Klassen zugänglich~
-@507008 = ~Macht die Diebesfestung für alle Klassen zugänglich~
